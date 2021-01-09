@@ -8,7 +8,7 @@
     </head>
     <body>
 
-        <ul>
+        <ul class="navbar">
             <img src="Asset/pict/bmkg.png" alt="logo-bmkg" class="logo-bmkg">
             <li>
                 <a href="index.php">Home</a>
@@ -18,19 +18,26 @@
             </li>
         </ul>
         
-        <div class="content">
-            <button class="dropdown-btn">Data Klimatologi</button>
-            <div class="dropdown-container">
-                <a href="">DMI</a>
-                <a href="">IOD</a>
-                <a href="">ONI</a>
-                <a href="">RCP4.5</a>
-                <a href="">RCP8.5</a>
+        <div class="card">
+            <div class="dropdown-db">
+            <button class="dropbtn-db">Data Klimatologi</button>
+            <div class="dropdown-content-db">
+                <a href="Asset/data/">DMI</a>
+                <a href="Asset/data/">IOD</a>
+                <a href="Asset/data/">ONI</a>
+                <a href="Asset/data/">RCP4.5</a>
+                <a href="Asset/data/">RCP8.5</a>
             </div>
-            <button class="dropdown-btn">Quality Control</button>
-            <div class="dropdown-container">
-                <a href="">Range Check</a>
-                <a href="">Step Check</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="dropdown-qc">
+                <button class="dropbtn-qc">Quality Control</button>
+                <div class="dropdown-content-qc">
+                    <a href="">Range Check</a>
+                    <a href="">Step Check</a>
+                </div>
             </div>
         </div>
 
