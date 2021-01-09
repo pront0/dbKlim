@@ -1,8 +1,41 @@
-.logo-bmkg{
-    height: 50mm;
-    width: 70mm;
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: azure;
 }
 
-.navbar{
-    
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #A5A5A5;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover{
+    background-color: lightseagreen;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.logo-bmkg{
+    float: right;
+    height: 50px;
+    width: 70px;
 }
