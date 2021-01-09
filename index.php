@@ -11,13 +11,15 @@
         <link rel="stylesheet" href="Asset/style.css">
     </head>
     <body>
-        <div class="sidenav">
+        <div class="navbar">
             <div class="logo-side">
                 <img src="Asset/pict/bmkg.png" alt="logo-bmkg" class="logo-bmkg">
-                <h2>Database Klimatologi</h2>
             </div>
-            <br>
-            <a href="index.html">Home</a>
+            <a href="index.php">Home</a>
+            <a href="about.html">About</a>
+        </div>
+        
+        <div class="content">
             <button class="dropdown-btn">Data Klimatologi</button>
             <div class="dropdown-container">
                 <a href="">DMI</a>
@@ -26,6 +28,15 @@
                 <a href="">RCP4.5</a>
                 <a href="">RCP8.5</a>
             </div>
+            <button class="dropdown-btn">Quality Control</button>
+            <div class="dropdown-container">
+                <a href="">Range Check</a>
+                <a href="">Step Check</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h7>Dibuat untuk memenuhi tugas mata kuliah database MKG</h7>
         </div>
     </body>
 </html>
