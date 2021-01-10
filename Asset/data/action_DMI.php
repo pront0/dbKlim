@@ -81,5 +81,3 @@ if(isset($_POST['tedit'])){
 		echo 'Gagal';
 	}
 }
-
-?>

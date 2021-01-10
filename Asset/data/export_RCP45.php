@@ -5,5 +5,3 @@
   header("Content-Disposition: attechment; filename=export-to-excel.xls");
 
   include 'data_RCP45.php';
-
-?>
