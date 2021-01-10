@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Database Klimatologi</title>
-        <link rel="stylesheet" href="Asset/style.css">
-    </head>
-    <body>
 
-        <ul class="navbar">
-            <img src="Asset/pict/bmkg.png" alt="logo-bmkg" class="logo-bmkg">
-            <li>
-                <a href="index.php">Home</a>
-            </li>
-            <li>
-                <a href="about.html">About</a>
-            </li>
+<head>
+    <meta charset="UTF-8">
+    <title>Database Klimatologi</title>
+    <link rel="stylesheet" href="Asset/style.css">
+</head>
 
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Database Klimatologi</a>
-                <div class="dropdown-content">
-                    <a href="">DMI</a>
-                    <a href="">ONI</a>
-                    <a href="">IOD</a>
-                    <a href="">RCP 4.5</a>
-                    <a href="">RCP 8.5</a>
-                </div>
-            </li>
+<body>
 
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Quality Control</a>
-                <div class="dropdown-content">
-                    <a href="">Range Check</a>
-                    <a href="">Step Check</a>
-                </div>
-            </li>
-        </ul>
-        
+    <ul class="navbar">
+        <img src="Asset/pict/bmkg.png" alt="logo-bmkg" class="logo-bmkg">
+        <li>
+            <a href="index.php">Home</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Database Klimatologi</a>
+            <div class="dropdown-content">
+                <a href="Asset/data/">DMI</a>
+                <a href="Asset/data/">ONI</a>
+                <a href="Asset/data/">IOD</a>
+                <a href="Asset/data/">RCP 4.5</a>
+                <a href="Asset/data/">RCP 8.5</a>
+            </div>
+        </li>
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Quality Control</a>
+            <div class="dropdown-content">
+                <a href="Asset/">Range Check</a>
+                <a href="Asset/">Step Check</a>
+            </div>
+        </li>
+    </ul>
+
     <div class="flex-container">
         <div align="center" class="card">
             <div>
-                <img src="Asset/pict/klim.jpg" width="224px" length="225px">
+                <img class="logo-klim" src="Asset/pict/klim.jpg" width="224px" length="225px">
             </div>
             <div>
-                <button class="button-klim" onclick="document.location=''"><h3><b>DATA KLIMATOLOGI</b></h3></button>
+                <button class="button-klim" onclick="document.location='Asset/data/DMI.php'">
+                    <h3><b>DATA KLIMATOLOGI</b></h3>
+                </button>
             </div>
         </div>
 
@@ -51,10 +55,13 @@
                 <img src="Asset/pict/QC.png" width="224px" length="225px">
             </div>
             <div>
-                <button class="button-klim" onclick="document.location=''"><h3><b>QUALITY CONTROL</b></h3></button>
+                <button class="button-klim" onclick="document.location=''">
+                    <h3><b>QUALITY CONTROL</b></h3>
+                </button>
             </div>
         </div>
     </div>
 
-    </body>
+</body>
+
 </html>
